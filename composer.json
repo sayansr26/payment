@@ -1,0 +1,30 @@
+{
+    "name": "sayan-mac/payment",
+    "authors": [
+        {
+            "name": "Sayan",
+            "email": "sayanchoudhury16@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "9.11.0",
+        "guzzlehttp/guzzle": "7.4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SayanMac\\Payment\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SayanMac\\Payment\\PaymentServiceProvider"
+            ],
+            "aliases": {
+                "Payment": "SayanMac\\Payment\\Facades\\Payment"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
