@@ -11,6 +11,9 @@
         "illuminate/support": "9.11.0|^8.65",
         "guzzlehttp/guzzle": "7.4.2"
     },
+    "require-dev": {
+        "laravel/laravel": ">=5.5"
+    },
     "autoload": {
         "psr-4": {
             "SayanMac\\Payment\\": "src/"
