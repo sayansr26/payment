@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '71576b077ca37d5b8f403d4a05bb2924d090fbda',
         'name' => 'sayan-mac/payment',
         'dev' => true,
     ),
@@ -189,12 +189,12 @@
             'dev_requirement' => false,
         ),
         'sayan-mac/payment' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '71576b077ca37d5b8f403d4a05bb2924d090fbda',
             'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
