@@ -7,7 +7,7 @@
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^8.1|7.4.29",
         "illuminate/support": "9.11.0|^8.65",
         "guzzlehttp/guzzle": "7.4.2"
     },
